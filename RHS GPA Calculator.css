@@ -1,0 +1,76 @@
+body {
+    background-color: #E5EBEA;
+}
+
+table {
+    height: 475px;
+    width: 70%;
+    margin: auto;
+    background-color: #081c34;
+}
+
+label {
+    color: #1c9fc2;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.HeaderText {
+    color: #1c9fc2;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding: 6px 4px;
+    border: 2px solid #157995;
+    border-radius: 4px;
+    outline: none;
+    margin: auto;
+}
+
+.inputs:focus {
+    border: 2px solid #1DC2F0;
+}
+
+.classInputs {
+    width: 60%;
+}
+
+.gradeInputs {
+    width: 30%;
+}
+
+.radioInputs {
+    text-align: center;
+}
+
+.calculate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    background-color: #157995;
+    color: #1DC2F0;
+    border: 5px solid #081C34;
+    padding: 30px 64px;
+    transition-duration: 0.5s;
+}
+
+.calculate:hover {
+    background-color: #1DC2F0;
+    color:#157995;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px)
+}
+
+.gpatext {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1c9fc2;
+}
