@@ -11,8 +11,10 @@ table {
 
 label {
     color: #1c9fc2;
-    font-size: 16px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 2px;
+    margin-right: 10px;
 }
 
 .HeaderText {
@@ -59,6 +61,8 @@ label {
     color: #1DC2F0;
     border: 5px solid #081C34;
     padding: 30px 64px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     transition-duration: 0.5s;
 }
 
@@ -74,3 +78,4 @@ label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #1c9fc2;
 }
+
