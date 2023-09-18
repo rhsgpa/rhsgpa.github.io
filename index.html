@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <head>
     <title>Randolph High School GPA Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "rhsgpa.css"></link>
     <script src = "rhsgpa.js"></script>
 </head>
 <body>
+    <div class = "flex">
+        <h1 class = "left headerText">Randolph High School</h1>
+        <h1 class = "right headerText">GPA Calculator</h1>
+    </div>
     <table>
         <tr>
-            <th class = "HeaderText">Classes</th>
-            <th class = "HeaderText">Weighting</th>
-            <th class = "HeaderText">Grade</th>
+            <th class = "headerText">Classes</th>
+            <th class = "headerText">Weighting</th>
+            <th class = "headerText">Grade</th>
         </tr>
         <tr>
             <form>
@@ -126,6 +131,6 @@
     </table>
     <div>
     <button class = "calculate" onclick = calculateGPA()>Calculate GPA</button>
-    <h1 id = "GPAOutput" class = "gpatext">Weighted GPA: | Unweighted GPA: </h1>
+    <h1 id = "GPAOutput" class = "gpatext">Weighted GPA: 0 | Unweighted GPA: 0</h1>
     </div>
 </body>
