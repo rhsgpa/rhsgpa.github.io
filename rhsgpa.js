@@ -37,16 +37,16 @@ function calculateGPA() {
             weightedTotal += 1.67 + weighted
             unweightedTotal += 1.67
         } else if (+gradeInputs[i].value >= 66.5){
-            weightedTotal += 1.33 + weighted
+            weightedTotal += 1.33
             unweightedTotal += 1.33
         } else if (+gradeInputs[i].value >= 62.5){
-            weightedTotal += 1.00 + weighted
+            weightedTotal += 1.00
             unweightedTotal += 1.00
         } else if (+gradeInputs[i].value >= 59.5){
-            weightedTotal += 0.67 + weighted
+            weightedTotal += 0.67
             unweightedTotal += 0.67
         } else {
-            weightedTotal += 0.00 + weighted
+            weightedTotal += 0.00
             unweightedTotal += 0.00
         }
     }
