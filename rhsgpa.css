@@ -79,7 +79,7 @@ label {
     background-color: #157995;
     color: #1DC2F0;
     border: 5px solid #081C34;
-    padding: 20px 48px;
+    padding: 16px 40px;
     margin-top: 15px;
     margin-bottom: 15px;
     transition-duration: 0.5s;
@@ -96,5 +96,5 @@ label {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #1c9fc2;
+    margin: 0px;
 }
-
