@@ -1,5 +1,24 @@
 body {
     background-color: #E5EBEA;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #081c34;
+}
+
+.left {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.right {
+    text-align: right;
+    margin-right: 15px;
 }
 
 table {
@@ -17,7 +36,7 @@ label {
     margin-right: 10px;
 }
 
-.HeaderText {
+.headerText {
     color: #1c9fc2;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -60,9 +79,9 @@ label {
     background-color: #157995;
     color: #1DC2F0;
     border: 5px solid #081C34;
-    padding: 30px 64px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 20px 48px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     transition-duration: 0.5s;
 }
 
