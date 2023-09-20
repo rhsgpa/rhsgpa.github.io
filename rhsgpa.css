@@ -9,6 +9,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: #081c34;
+    margin-bottom: 15px;
 }
 
 .left {
